@@ -16,7 +16,8 @@
   },
   "scripts": {
   	"lint":"web-ext lint -s dist/",
-  	"build":"./build.js"
+  	"build":"./build.js",
+  	"bundle":"web-ext.cmd build -s dist/ --overwrite-dest"
   },
   "keywords": [],
   "author": "",
