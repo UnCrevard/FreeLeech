@@ -6,6 +6,7 @@ scripts/
 css/
 fonts/
 Docs/
+web-ext-artifacts/
 
 build.js
 manifest.hjson

@@ -1,5 +1,5 @@
 {
-	"extdescription": {
+	"extDescription": {
 		"message": "Protège votre ratio sur les trackers privés"
 	},
 	"state": {
@@ -41,52 +41,52 @@
 	"delete": {
 		"message": "Supprimer"
 	},
-	"newtorrent": {
+	"newTorrent": {
 		"message": "Un nouveau torrent a été ajouté"
 	},
-	"isseeding": {
+	"isSeeding": {
 		"message": "partage en cours"
 	},
-	"onactive": {
+	"onActive": {
 		"message": "Extension activée"
 	},
-	"offactive": {
+	"offActive": {
 		"message": "Extension désactivée"
 	},
-	"infoactive": {
+	"infoActive": {
 		"message": "Activer ou désactiver l'extension."
 	},
-	"infonotif": {
+	"infoNotif": {
 		"message": "Afficher une notification lors du seeding"
 	},
-	"infospeed": {
+	"infoSpeed": {
 		"message": "Vitesse de votre connexion"
 	},
-	"infoclient": {
+	"infoClient": {
 		"message": "Choisir le client simulé"
 	},
-	"buttonupload": {
+	"buttonUpload": {
 		"message": "Ajouter des fichiers torrent"
 	},
-	"infoupload": {
+	"infoUpload": {
 		"message": "Importer des fichiers"
 	},
-	"buttonnewtab": {
+	"buttonNewTab": {
 		"message": "Ouvrir dans un nouvel onglet"
 	},
-	"infonewtab": {
+	"infoNewTab": {
 		"message": "Firefox ne peut importer des fichiers via ce popup. Cliquez ici pour ouvrir un onglet et importer des fichiers torrent."
 	},
-	"localfile": {
+	"localFile": {
 		"message": "Fichier importé"
 	},
-	"popupdeletetorrent": {
+	"popupDeleteTorrent": {
 		"message": "Supprimer le torrent"
 	},
-	"popupenabled": {
+	"popupEnabled": {
 		"message": "Démarrer/Arrêter un torrent"
 	},
 	"donation": {
-		"message": "Si vous aimez cette extension considérez un don en  ฿itcoin à"
+		"message": "Si vous aimez cette extension considérez un don en ฿itcoin à"
 	}
 }

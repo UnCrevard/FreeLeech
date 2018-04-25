@@ -57,7 +57,7 @@ popupEnabled:Enable/Disable a torrent|Démarrer/Arrêter un torrent
 
 # popup.donation
 
-donation:If you like this software, please consider a  ฿itcoin donation to|Si vous aimez cette extension considérez un don en  ฿itcoin à
+donation:If you like this software, please consider a ฿itcoin donation to|Si vous aimez cette extension considérez un don en ฿itcoin à
 
 
 # popup tips

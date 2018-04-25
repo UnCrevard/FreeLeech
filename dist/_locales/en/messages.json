@@ -1,8 +1,8 @@
 {
-	"extextension": {
+	"extExtension": {
 		"message": "FreeLeech"
 	},
-	"extdescription": {
+	"extDescription": {
 		"message": "Protect your ratio on private trackers"
 	},
 	"state": {
@@ -53,64 +53,64 @@
 	"delete": {
 		"message": "Delete"
 	},
-	"newtorrent": {
+	"newTorrent": {
 		"message": "New torrent has been added"
 	},
-	"isseeding": {
+	"isSeeding": {
 		"message": "is seeding"
 	},
-	"onactive": {
+	"onActive": {
 		"message": "Extension enabled"
 	},
-	"offactive": {
+	"offActive": {
 		"message": "Extension disabled"
 	},
-	"infoactive": {
+	"infoActive": {
 		"message": "Enable or disable the extension."
 	},
-	"onnotif": {
+	"onNotif": {
 		"message": "Notifications On"
 	},
-	"offnotif": {
+	"offNotif": {
 		"message": "Notifications Off"
 	},
-	"infonotif": {
+	"infoNotif": {
 		"message": "Show notification on seeding"
 	},
-	"infospeed": {
+	"infoSpeed": {
 		"message": "Your network speed"
 	},
-	"infoclient": {
+	"infoClient": {
 		"message": "Change the simulated client"
 	},
-	"buttonupload": {
+	"buttonUpload": {
 		"message": "Upload torrent files"
 	},
-	"infoupload": {
+	"infoUpload": {
 		"message": "Import torrent files"
 	},
-	"buttonnewtab": {
+	"buttonNewTab": {
 		"message": "Open in new tab"
 	},
-	"infonewtab": {
+	"infoNewTab": {
 		"message": "Firefox can't import file from this popup. Click here to open a tab to import some torrent files."
 	},
-	"localfile": {
+	"localFile": {
 		"message": "Imported file"
 	},
-	"popupdeletetorrent": {
+	"popupDeleteTorrent": {
 		"message": "Remove torrent"
 	},
-	"popuptotalleechers": {
+	"popupTotalLeechers": {
 		"message": "Leechers"
 	},
-	"popuptotalseeders": {
+	"popupTotalSeeders": {
 		"message": "Seeders"
 	},
-	"popupenabled": {
+	"popupEnabled": {
 		"message": "Enable/Disable a torrent"
 	},
 	"donation": {
-		"message": "If you like this software, please consider a  ฿itcoin donation to"
+		"message": "If you like this software, please consider a ฿itcoin donation to"
 	}
 }
