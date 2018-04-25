@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+	"target": "es6",
+	"module": "commonjs",
+	"removeComments": true,
+	"moduleResolution": "node",
+	"esModuleInterop": true,
+	"noEmit":true,
+	"allowJS":true
+  },
+  "exclude":["js","dist","node_module"]
+}

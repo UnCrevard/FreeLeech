@@ -1,0 +1,92 @@
+{
+	"extdescription": {
+		"message": "Protège votre ratio sur les trackers privés"
+	},
+	"state": {
+		"message": "état"
+	},
+	"enabled": {
+		"message": "activé"
+	},
+	"disabled": {
+		"message": "désactivé"
+	},
+	"uploaded": {
+		"message": "envoyé"
+	},
+	"bytes": {
+		"message": "octet(s)"
+	},
+	"kps": {
+		"message": "Ko/s"
+	},
+	"speed": {
+		"message": "Vitesse"
+	},
+	"client": {
+		"message": "Client"
+	},
+	"active": {
+		"message": "Activé"
+	},
+	"title": {
+		"message": "Titre"
+	},
+	"size": {
+		"message": "Taille"
+	},
+	"seeding": {
+		"message": "Partagé"
+	},
+	"delete": {
+		"message": "Supprimer"
+	},
+	"newtorrent": {
+		"message": "Un nouveau torrent a été ajouté"
+	},
+	"isseeding": {
+		"message": "partage en cours"
+	},
+	"onactive": {
+		"message": "Extension activée"
+	},
+	"offactive": {
+		"message": "Extension désactivée"
+	},
+	"infoactive": {
+		"message": "Activer ou désactiver l'extension."
+	},
+	"infonotif": {
+		"message": "Afficher une notification lors du seeding"
+	},
+	"infospeed": {
+		"message": "Vitesse de votre connexion"
+	},
+	"infoclient": {
+		"message": "Choisir le client simulé"
+	},
+	"buttonupload": {
+		"message": "Ajouter des fichiers torrent"
+	},
+	"infoupload": {
+		"message": "Importer des fichiers"
+	},
+	"buttonnewtab": {
+		"message": "Ouvrir dans un nouvel onglet"
+	},
+	"infonewtab": {
+		"message": "Firefox ne peut importer des fichiers via ce popup. Cliquez ici pour ouvrir un onglet et importer des fichiers torrent."
+	},
+	"localfile": {
+		"message": "Fichier importé"
+	},
+	"popupdeletetorrent": {
+		"message": "Supprimer le torrent"
+	},
+	"popupenabled": {
+		"message": "Démarrer/Arrêter un torrent"
+	},
+	"donation": {
+		"message": "Si vous aimez cette extension considérez un don en  ฿itcoin à"
+	}
+}

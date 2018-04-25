@@ -1,0 +1,65 @@
+en,fr
+
+extExtension:FreeLeech
+extDescription:Protect your ratio on private trackers|Protège votre ratio sur les trackers privés
+
+state:state|état
+enabled:enabled|activé
+disabled:disabled|désactivé
+uploaded:uploaded|envoyé
+bytes:byte(s)|octet(s)
+kps:Kb/s|Ko/s
+speed:Speed|Vitesse
+client:Client|Client
+
+active:Enabled|Activé
+title:Title|Titre
+size:Size|Taille
+seeding:Seeded|Partagé
+seeders:Seeders
+leechers:Leechers
+tracker:Tracker
+delete:Delete|Supprimer
+
+# notifications
+
+newTorrent:New torrent has been added|Un nouveau torrent a été ajouté
+isSeeding:is seeding|partage en cours
+
+#
+# popup.html
+#
+onActive:Extension enabled|Extension activée
+offActive:Extension disabled|Extension désactivée
+infoActive:Enable or disable the extension.|Activer ou désactiver l'extension.
+
+onNotif:Notifications On
+offNotif:Notifications Off
+infoNotif:Show notification on seeding|Afficher une notification lors du seeding
+
+infoSpeed:Your network speed|Vitesse de votre connexion
+
+infoClient:Change the simulated client|Choisir le client simulé
+
+# upload
+buttonUpload:Upload torrent files|Ajouter des fichiers torrent
+infoUpload:Import torrent files|Importer des fichiers
+buttonNewTab:Open in new tab|Ouvrir dans un nouvel onglet
+infoNewTab:Firefox can't import file from this popup. Click here to open a tab to import some torrent files.|Firefox ne peut importer des fichiers via ce popup. Cliquez ici pour ouvrir un onglet et importer des fichiers torrent.
+
+# popup.table
+
+localFile:Imported file|Fichier importé
+popupDeleteTorrent:Remove torrent|Supprimer le torrent
+popupTotalLeechers:Leechers
+popupTotalSeeders:Seeders
+popupEnabled:Enable/Disable a torrent|Démarrer/Arrêter un torrent
+
+# popup.donation
+
+donation:If you like this software, please consider a  ฿itcoin donation to|Si vous aimez cette extension considérez un don en  ฿itcoin à
+
+
+# popup tips
+
+

@@ -1,0 +1,14 @@
+__testing__/
+node_modules/
+photoshop/
+.cache/
+scripts/
+css/
+fonts/
+Docs/
+
+build.js
+manifest.hjson
+
+*.sublime-*
+.vscode

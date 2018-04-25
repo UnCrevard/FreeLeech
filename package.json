@@ -1,0 +1,27 @@
+{
+  "name": "Freeleech",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+
+    "bencode": "^2.0.0",
+    "parse-torrent-file": "^4.2.2",
+    "vue": "^1.0.28-csp"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.59",
+    "@types/node": "^9.6.5",
+    "@types/parse-torrent-file": "^4.0.1",
+    "web-ext-types": "^2.0.1"
+  },
+  "scripts": {
+  	"lint":"web-ext lint -s dist/",
+  	"build":"./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  }
+}

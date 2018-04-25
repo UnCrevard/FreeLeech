@@ -1,0 +1,116 @@
+{
+	"extextension": {
+		"message": "FreeLeech"
+	},
+	"extdescription": {
+		"message": "Protect your ratio on private trackers"
+	},
+	"state": {
+		"message": "state"
+	},
+	"enabled": {
+		"message": "enabled"
+	},
+	"disabled": {
+		"message": "disabled"
+	},
+	"uploaded": {
+		"message": "uploaded"
+	},
+	"bytes": {
+		"message": "byte(s)"
+	},
+	"kps": {
+		"message": "Kb/s"
+	},
+	"speed": {
+		"message": "Speed"
+	},
+	"client": {
+		"message": "Client"
+	},
+	"active": {
+		"message": "Enabled"
+	},
+	"title": {
+		"message": "Title"
+	},
+	"size": {
+		"message": "Size"
+	},
+	"seeding": {
+		"message": "Seeded"
+	},
+	"seeders": {
+		"message": "Seeders"
+	},
+	"leechers": {
+		"message": "Leechers"
+	},
+	"tracker": {
+		"message": "Tracker"
+	},
+	"delete": {
+		"message": "Delete"
+	},
+	"newtorrent": {
+		"message": "New torrent has been added"
+	},
+	"isseeding": {
+		"message": "is seeding"
+	},
+	"onactive": {
+		"message": "Extension enabled"
+	},
+	"offactive": {
+		"message": "Extension disabled"
+	},
+	"infoactive": {
+		"message": "Enable or disable the extension."
+	},
+	"onnotif": {
+		"message": "Notifications On"
+	},
+	"offnotif": {
+		"message": "Notifications Off"
+	},
+	"infonotif": {
+		"message": "Show notification on seeding"
+	},
+	"infospeed": {
+		"message": "Your network speed"
+	},
+	"infoclient": {
+		"message": "Change the simulated client"
+	},
+	"buttonupload": {
+		"message": "Upload torrent files"
+	},
+	"infoupload": {
+		"message": "Import torrent files"
+	},
+	"buttonnewtab": {
+		"message": "Open in new tab"
+	},
+	"infonewtab": {
+		"message": "Firefox can't import file from this popup. Click here to open a tab to import some torrent files."
+	},
+	"localfile": {
+		"message": "Imported file"
+	},
+	"popupdeletetorrent": {
+		"message": "Remove torrent"
+	},
+	"popuptotalleechers": {
+		"message": "Leechers"
+	},
+	"popuptotalseeders": {
+		"message": "Seeders"
+	},
+	"popupenabled": {
+		"message": "Enable/Disable a torrent"
+	},
+	"donation": {
+		"message": "If you like this software, please consider a  ฿itcoin donation to"
+	}
+}
