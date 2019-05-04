@@ -1,4 +1,7 @@
 {
+	"extExtension": {
+		"message": "FreeLeech"
+	},
 	"extDescription": {
 		"message": "Protège votre ratio sur les trackers privés"
 	},
@@ -38,6 +41,15 @@
 	"seeding": {
 		"message": "Partagé"
 	},
+	"seeders": {
+		"message": "Seeders"
+	},
+	"leechers": {
+		"message": "Leechers"
+	},
+	"tracker": {
+		"message": "Tracker"
+	},
 	"delete": {
 		"message": "Supprimer"
 	},
@@ -55,6 +67,12 @@
 	},
 	"infoActive": {
 		"message": "Activer ou désactiver l'extension."
+	},
+	"onNotif": {
+		"message": "Notifications On"
+	},
+	"offNotif": {
+		"message": "Notifications Off"
 	},
 	"infoNotif": {
 		"message": "Afficher une notification lors du seeding"
@@ -82,6 +100,12 @@
 	},
 	"popupDeleteTorrent": {
 		"message": "Supprimer le torrent"
+	},
+	"popupTotalLeechers": {
+		"message": "Leechers"
+	},
+	"popupTotalSeeders": {
+		"message": "Seeders"
 	},
 	"popupEnabled": {
 		"message": "Démarrer/Arrêter un torrent"

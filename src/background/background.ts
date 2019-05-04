@@ -306,7 +306,7 @@ function setBAIcon(icon: string) {
 
 	some magic
 
- */
+*/
 function freeLeech() {
 	let fetching: Array<Torrent> = []
 
@@ -347,7 +347,7 @@ function freeLeech() {
 
 			let tmp_uploaded = torrent.totalUploaded + (bytes * torrent.interval / Time.SECOND)
 
-			console.debug(torrent.name, showUnit(bytes), "/s", "uploaded", tmp_uploaded);
+			console.debug(torrent.name, torrent.hash, showUnit(bytes), "/s", "uploaded", tmp_uploaded);
 
 			let url = torrent.announceURL +
 				// The 20 byte sha1 hash of the bencoded form of the info value from the metainfo file.
@@ -391,6 +391,9 @@ function freeLeech() {
 
 			fetch(url)
 				.then(res => {
+
+					// 200 OK
+
 					console.debug("fetch seeding", res.status, res.statusText, res.headers)
 					return res.arrayBuffer()
 				})
@@ -403,7 +406,12 @@ function freeLeech() {
 						// .failure
 						// .warning
 
-						if (json.failure || json.warning) {
+						if ("failure reason" in json || json.failure || json.warning) {
+
+							if (json["failure reason"]) console.error(json["failure reason"].toString());
+
+							if (json.warning) console.error(json.warning.toString());
+
 							torrent.enabled = false
 							//@todo : format ?
 							torrent.lastError = json.failure + json.warning
@@ -646,4 +654,7 @@ if (settings.peerId == "") {
 	settings.peerId = generatePeerId(settings.currentClient)
 }
 
+chrome.browserAction.setBadgeBackgroundColor({
+	color:"red"
+})
 updateBA()

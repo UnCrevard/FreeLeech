@@ -76,16 +76,21 @@ export function encodeBufferToURIChar(buffer: Buffer): string {
 
 encode hash to lowercased string
 
+hack to fix bug
+
 */
 
 export function encode_hash(hash: string): string {
 
 	console.assert(hash.length == 40, "hash too long")
 
+	return hash.match(/.{1,2}/g).map(x=>"%"+x).join("")
+/*
 	//@node
 	let buffer = Buffer.from(hash, "hex")
 
 	return encodeBufferToURIChar(buffer).toLowerCase()
+*/
 }
 
 /*

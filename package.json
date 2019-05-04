@@ -3,21 +3,29 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-
-    "bencode": "^2.0.0",
+    "acorn": "^6.1.1",
+    "bencode": "^2.0.1",
+    "browserify": "^16.2.3",
+    "browserify-replace": "^1.0.0",
+    "minify": "^4.1.1",
     "parse-torrent-file": "^4.2.2",
-    "vue": "^1.0.28-csp"
+    "tsify": "^4.0.1",
+    "typescript": "^3.4.5",
+    "uglify-es": "^3.3.9",
+    "vue": "^1.0.28",
+    "web-ext": "^3.0.0"
   },
   "devDependencies": {
     "@types/chrome": "0.0.59",
-    "@types/node": "^9.6.5",
-    "@types/parse-torrent-file": "^4.0.1",
-    "web-ext-types": "^2.0.1"
+    "@types/node": "^9.6.48",
+    "@types/parse-torrent-file": "^4.0.2",
+    "hjson": "^3.1.2",
+    "web-ext-types": "^2.3.0"
   },
   "scripts": {
-  	"lint":"web-ext lint -s dist/",
-  	"build":"./build.js",
-  	"bundle":"web-ext.cmd build -s dist/ --overwrite-dest"
+    "lint": "web-ext lint -s dist/",
+    "build": "./build.js",
+    "bundle": "web-ext.cmd build -s dist/ --overwrite-dest"
   },
   "keywords": [],
   "author": "",

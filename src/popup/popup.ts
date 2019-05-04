@@ -7,6 +7,7 @@ import ParseTorrentFile from "parse-torrent-file"
 // <p v-i18n:keyword></p>
 
 Vue.directive("i18n", function() {
+	//(this.el as HTMLElement).textContent += translate(this.arg)
 	this.el.insertBefore(document.createTextNode(translate(this.arg)), this.el.firstChild)
 })
 

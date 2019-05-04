@@ -62,17 +62,29 @@
 			</a>
 			<!-- settings -->
 			<div id="settings">
-				<div class="grid"><button class="uk-button uk-width-1-3 uk-text-capitalize tooltip" :class="active?'uk-button-primary':'uk-button-default'" :data-info="i18n('infoActive')" @click="updateActive">{{i18n(active?'onActive':'offActive')}}</button><button class="uk-button uk-width-1-3 uk-text-capitalize tooltip" :class="showNotification?'uk-button-primary':'uk-button-default'" :data-info="i18n('infoNotif')" @click="updateNotif" >{{i18n(showNotification?"onNotif":"offNotif")}}</button><select class="uk-select uk-width-1-3 tooltip" v-model="currentClient" @change="updateClient" :data-info="i18n('infoClient')"><option v-for="client in clients" :value="client.clientId">{{client.clientName}}</option></select>
+				<div class="grid">
+					<button class="uk-button uk-width-1-3 uk-text-capitalize tooltip"
+					:class="active?'uk-button-primary':'uk-button-default'"
+					:data-info="i18n('infoActive')" @click="updateActive">{{i18n(active?'onActive':'offActive')}}</button>
+					<button class="uk-button uk-width-1-3 uk-text-capitalize tooltip"
+					:class="showNotification?'uk-button-primary':'uk-button-default'"
+					:data-info="i18n('infoNotif')" @click="updateNotif" >{{i18n(showNotification?"onNotif":"offNotif")}}</button>
+					<select class="uk-select uk-width-1-3 tooltip" v-model="currentClient"
+						@change="updateClient"
+						:data-info="i18n('infoClient')">
+						<option v-for="client in clients" :value="client.clientId">{{client.clientName}}</option>
+					</select>
+				</div>
+				<div class="grid tooltip uk-margin-top" :data-info="i18n('infoSpeed')">
+					<label class="uk-label uk-text-center width25 uk-margin-right" v-i18n:speed>&nbsp;<i class="ion-speedometer"></i></label>
+					<input class="uk-range width50" type="range" min="16" max="16384" step="1" v-model="currentKBytesPerSeconds" @change="updateSpeed">
+					<span class="uk-badge width25 uk-margin-left">{{currentKBytesPerSeconds}}{{i18n("kps")}}</span>
+				</div>
+				<a class="github" href="https://github.com/UnCrevard" target="_blank"><i class="ion-social-github"></i></a>
+				<a class="store" href="https://addons.mozilla.org/firefox/addon/freeleech/" target="_blank"><i class="ion-home"></i></a>
 			</div>
-			<div class="grid tooltip uk-margin-top" :data-info="i18n('infoSpeed')">
-				<label class="uk-label uk-text-center width25 uk-margin-right" v-i18n:speed></label>
-				<input class="uk-range width50" type="range" min="16" max="1024" step="1" v-model="currentKBytesPerSeconds" @change="updateSpeed">
-				<span class="uk-badge width25 uk-margin-left">{{currentKBytesPerSeconds}}{{i18n("kps")}}</span>
-			</div>
-			<a class="github" href="https://github.com/UnCrevard" target="_blank"><i class="ion-social-github"></i></a>
+			<div class="footer"></div>
 		</div>
-		<div class="footer"></div>
-	</div>
-	<script src="popup.js"></script>
-</body>
+		<script src="popup.js"></script>
+	</body>
 </html>
