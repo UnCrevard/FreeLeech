@@ -4,7 +4,7 @@ let obj: Settings =
 	{
 		active: true,
 		torrents: [],
-		debug: false,
+		debug: true,
 		currentKBytesPerSeconds: 100,
 		currentClient: 0,
 		showNotification: true,
@@ -110,6 +110,8 @@ function rewriteHeaders(details: chrome.webRequest.WebRequestHeadersDetails) {
 
 	return { requestHeaders: headers };
 }
+
+const isChrome = chrome.runtime.getURL("").split("-")[0] == "chrome"
 
 function updateRewriteHeaders() {
 	//@todo
@@ -432,8 +434,9 @@ function freeLeech() {
 					}
 				})
 				.catch(err => {
+					// adblocker
 					console.error("fetch", err, url)
-					//torrent.enabled = false
+					torrent.enabled = false
 					torrent.lastError = "fetch error"
 					torrent.lastAnnounce = last
 				})
@@ -653,8 +656,9 @@ chrome.runtime.onMessage.addListener((msg: any, sender, res) => {
 if (settings.peerId == "") {
 	settings.peerId = generatePeerId(settings.currentClient)
 }
-
+/*
 chrome.browserAction.setBadgeBackgroundColor({
-	color:"red"
+	color:"red",
 })
+*/
 updateBA()

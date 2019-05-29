@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "__MSG_extExtension__",
-	"version": "1.3",
+	"version": "1.5",
 	"description": "__MSG_extDescription__",
 	"default_locale": "en",
 	"icons": {
@@ -23,5 +23,6 @@
 	"browser_action": {
 		"default_popup": "popup.html",
 		"browser_style": false
-	}
+	},
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';"
 }
