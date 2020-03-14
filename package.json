@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^6.4.1",
     "bencode": "^2.0.1",
     "browserify": "^16.2.3",
     "browserify-replace": "^1.0.0",
